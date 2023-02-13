@@ -1,0 +1,42 @@
+.start-page {
+    color: #293264;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    position: fixed;
+    inset: 0;
+}
+
+.start-header {
+    font-size: 31px;
+    text-align: center;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+
+.start-description {
+    font-size: 16px;
+    /* margin-top: 5px; */
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.start-btn {
+    margin-top: 10px;
+    background: #4D5B9E;
+    width: 193px;
+    height: 52px;
+    border-radius: 15px;
+    color: #fff; 
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.start-btn:hover {
+    /* background: #4D5B9E; */
+    opacity: 0.9;
+}
